@@ -9,7 +9,7 @@ Run: streamlit run app.py
 import random
 import time
 from collections import Counter
-
+import math
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
