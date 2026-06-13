@@ -309,7 +309,7 @@ elif tab == "Raft Consensus":
                                         xaxis=dict(**NO_GRID), yaxis=dict(**GRID),
                                         legend=dict(orientation="h", y=-0.35, font=dict(size=9)),
                                         showlegend=False)
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(role_fig, use_container_width=True)
 
             # Write result
             if st.session_state.get("raft_wrote"):
